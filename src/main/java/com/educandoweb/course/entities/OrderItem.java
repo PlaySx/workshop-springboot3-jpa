@@ -30,8 +30,8 @@ public class OrderItem implements Serializable{
 
 	public OrderItem( Order order, Product product,  Integer quantity, Double price) {
 		super();
-		id.setProduct(product);
 		id.setOrder(order);
+		id.setProduct(product);
 		this.quantity = quantity;
 		this.price = price;
 	}
